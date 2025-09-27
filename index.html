@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidenze Data Space</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración de la fuente Inter -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+        }
+        /* Colores de marca basados en el logo proporcionado (azul oscuro y verde/azul) */
+        .color-primary { background-color: #061e38; } /* Azul oscuro */
+        .color-secondary { background-color: #007bff; } /* Azul medio */
+        .color-accent { background-color: #17a2b8; } /* Verde/Azul para acento */
+        .text-accent { color: #17a2b8; }
+        .border-accent { border-color: #17a2b8; }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header / Navbar (Sticky) -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold text-color-primary tracking-tight">Evidenze<span class="text-accent">DS</span></h1>
+            <a href="#contacto" class="px-4 py-2 bg-color-accent text-white font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition duration-300">
+                Contactar
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="color-primary text-white py-20 md:py-32 rounded-b-2xl shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
+                Evidenze Data Space
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
+                Impulsando la <span class="text-accent font-semibold">Investigación Clínica con evidencia del mundo real (RWE/RWD)</span>, en pleno cumplimiento de la DGA y la futura EHDS.
+            </p>
+            <a href="#ecosistema" class="inline-block px-8 py-3 bg-color-accent text-white text-lg font-bold rounded-full shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105">
+                Explora el Ecosistema
+            </a>
+        </div>
+    </section>
+
+    <!-- Descripción del Caso de Uso -->
+    <section class="py-16 md:py-24" id="descripcion">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="inline-block px-4 py-1 text-sm font-semibold rounded-full bg-blue-100 text-color-secondary">CASO DE USO</span>
+                <h3 class="mt-4 text-4xl font-bold text-gray-900">¿Qué es Evidenze Data Space?</h3>
+            </div>
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl border-t-4 border-color-secondary">
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Evidenze Data Space es un caso de uso promovido por **Evidenze** para el desarrollo de la Investigación Clínica con **evidencia en el mundo real (RWE/RWD)**. Creamos un espacio de datos seguro y gobernado que cumple con un amplio ecosistema de participantes. Garantizamos la gestión de los derechos de uso secundario de los datos, cumpliendo estrictamente con la **Data Governance Act (DGA)** y la futura **European Health Data Space (EHDS)**.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecosistema/Participantes -->
+    <section class="color-secondary text-white py-16 md:py-24" id="ecosistema">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h3 class="text-4xl font-bold">Participantes Clave</h3>
+                <p class="mt-4 text-xl opacity-90">Un amplio ecosistema de colaboración para la investigación.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Card 1: Proveedores de Salud -->
+                <div class="bg-white text-gray-800 p-6 rounded-xl shadow-xl transform hover:scale-105 transition duration-300 border-b-4 border-color-accent">
+                    <div class="text-4xl mb-4 text-color-accent">🏥</div>
+                    <h4 class="text-xl font-bold mb-2">Proveedores de Salud & Centros de Investigación</h4>
+                    <p class="text-sm">Públicos o privados. Actúan como **Proveedores y Consumidores** de datos en el EDS.</p>
+                </div>
+
+                <!-- Card 2: Sociedades Médicas -->
+                <div class="bg-white text-gray-800 p-6 rounded-xl shadow-xl transform hover:scale-105 transition duration-300 border-b-4 border-color-accent">
+                    <div class="text-4xl mb-4 text-color-accent">👥</div>
+                    <h4 class="text-xl font-bold mb-2">Sociedades Médicas & Asociaciones de Pacientes</h4>
+                    <p class="text-sm">Esenciales para la representatividad. Funcionan como **Proveedores y Consumidores** de datos.</p>
+                </div>
+
+                <!-- Card 3: Industria Farmacéutica -->
+                <div class="bg-white text-gray-800 p-6 rounded-xl shadow-xl transform hover:scale-105 transition duration-300 border-b-4 border-color-accent">
+                    <div class="text-4xl mb-4 text-color-accent">🔬</div>
+                    <h4 class="text-xl font-bold mb-2">Industria Farmacéutica & Investigación Clínica</h4>
+                    <p class="text-sm">Principales **Consumidores** de los datos del EDS para avanzar en el desarrollo clínico.</p>
+                </div>
+
+                <!-- Card 4: Industria TIC -->
+                <div class="bg-white text-gray-800 p-6 rounded-xl shadow-xl transform hover:scale-105 transition duration-300 border-b-4 border-color-accent">
+                    <div class="text-4xl mb-4 text-color-accent">💡</div>
+                    <h4 class="text-xl font-bold mb-2">Industria TIC & Digital</h4>
+                    <p class="text-sm">**Proveedores de soluciones** innovadoras y servicios (Apps, Wearables) aplicados al EDS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas Terapéuticas -->
+    <section class="py-16 md:py-24 bg-gray-50" id="areas">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="inline-block px-4 py-1 text-sm font-semibold rounded-full bg-color-accent text-white">FOCO DE INVESTIGACIÓN</span>
+                <h3 class="mt-4 text-4xl font-bold text-gray-900">Áreas Terapéuticas</h3>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Oncología</span>
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Nefrología</span>
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Servicios Salud-Social Integrados</span>
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Cardiovascular</span>
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Neurología</span>
+                <span class="px-6 py-2 bg-white text-lg font-medium text-color-primary border-2 border-color-primary rounded-full shadow-md">Enfermedades Raras</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kit de Espacios de Datos -->
+    <section class="py-16 md:py-24 color-primary text-white" id="kit">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:space-x-12">
+                <!-- Parte Izquierda: Título y Rol de Evidenze -->
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h3 class="text-4xl font-bold mb-4">Evidenze Data Space + Kit de Espacios de Datos</h3>
+                    <p class="text-2xl font-light mb-8 text-accent">Una oportunidad única para proveedores y participantes en salud.</p>
+
+                    <h4 class="text-2xl font-semibold mb-3">🔹 Rol de Evidenze Data Space</h4>
+                    <ul class="space-y-2 list-disc list-inside ml-4 text-lg">
+                        <li>Promotor y acompañante en la incorporación efectiva.</li>
+                        <li>Asistencia en la preparación y federación de datos clínicos.</li>
+                        <li>Garantía de alineación con EHDS, Data Act y Data Governance Act.</li>
+                    </ul>
+                </div>
+
+                <!-- Parte Derecha: ¿Qué aporta el Kit? -->
+                <div class="lg:w-1/2 bg-white p-8 rounded-xl shadow-2xl text-gray-800">
+                    <h4 class="text-3xl font-bold mb-4 text-color-secondary">¿Qué Aporta el Kit?</h4>
+                    <p class="text-lg mb-6">Ayuda económica para la transformación digital en salud:</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="p-4 bg-gray-100 rounded-lg shadow-inner">
+                            <span class="text-2xl font-bold text-accent block">50.000 €</span>
+                            <p class="text-sm">Ayuda máxima para participantes **públicos**.</p>
+                        </div>
+                        <div class="p-4 bg-gray-100 rounded-lg shadow-inner">
+                            <span class="text-2xl font-bold text-accent block">35.000 €</span>
+                            <p class="text-sm">Ayuda máxima para participantes **privados**.</p>
+                        </div>
+                    </div>
+                    <ul class="mt-6 space-y-3 text-base">
+                        <li class="flex items-start">
+                            <span class="text-color-secondary mr-2 mt-1">✓</span>
+                            <span>Financiación de Gobernanza y cumplimiento (EHDS, UNE 0087).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-color-secondary mr-2 mt-1">✓</span>
+                            <span>Integración técnica (APIs, conectores).</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-color-secondary mr-2 mt-1">✓</span>
+                            <span>Publicación de datasets (anonimización, FAIR).</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios para Hospitales/Clínicas -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Beneficios Clave</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 bg-white rounded-xl shadow-xl border-l-4 border-color-accent">
+                    <div class="text-4xl text-color-secondary mb-3">🌐</div>
+                    <p class="font-semibold text-lg">Ecosistema Confiable y Europeo</p>
+                    <p class="text-gray-600 text-sm">Incorporación a una red de datos segura y regulada a nivel europeo.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-xl border-l-4 border-color-accent">
+                    <div class="text-4xl text-color-secondary mb-3">📈</div>
+                    <p class="font-semibold text-lg">Visibilidad Estratégica</p>
+                    <p class="text-gray-600 text-sm">Mayor visibilidad frente a la Industria (Pharma, MedTech) y proyectos Horizon Europe.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl shadow-xl border-l-4 border-color-accent">
+                    <div class="text-4xl text-color-secondary mb-3">🚀</div>
+                    <p class="font-semibold text-lg">Oportunidad de Innovación</p>
+                    <p class="text-gray-600 text-sm">Impulso a la innovación en múltiples áreas terapéuticas de alto impacto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="py-16 md:py-24 color-secondary" id="contacto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+            <h3 class="text-4xl font-bold mb-6">Contacta con Evidenze Data Space</h3>
+            <p class="text-xl mb-10 opacity-90">Únete a nuestro ecosistema y transforma la investigación clínica.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
+                <!-- Enlace Web -->
+                <a href="https://www.evidenze.com" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center p-4 bg-color-accent rounded-xl shadow-2xl transition duration-300 transform hover:scale-105 hover:bg-opacity-90">
+                    <span class="text-3xl mr-3">🔗</span>
+                    <span class="text-xl font-semibold">www.evidenze.com</span>
+                </a>
+                <!-- Enlace Email -->
+                <a href="mailto:EvidenzeDataSpace@evidenze.com" class="flex items-center justify-center p-4 bg-color-accent rounded-xl shadow-2xl transition duration-300 transform hover:scale-105 hover:bg-opacity-90">
+                    <span class="text-3xl mr-3">📧</span>
+                    <span class="text-xl font-semibold">EvidenzeDataSpace@evidenze.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="color-primary py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-400">
+            <p>&copy; 2024 Evidenze Data Space. Todos los derechos reservados. Cumplimiento DGA & EHDS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
